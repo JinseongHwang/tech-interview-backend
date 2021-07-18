@@ -1,6 +1,6 @@
 1. Primitive type과 Reference type의 차이를 설명하시오.
 
-   - primitive type은 **문자형(char), 정수형(byte, int, short, long), 실수형(float, double), 논리형(boolean)**이 있으며 이들은 stack 영역에 실제 값이 바로 저장된다.
+   - primitive type은 **문자형(char), 정수형(byte, int, short, long), 실수형(float, double), 논리형(boolean)** 이 있으며 이들은 stack 영역에 실제 값이 바로 저장된다.
    - reference type은 **primitive type을 제외한 모든 타입**이다. 대표적으로 class, interface등이 있으며 이들은 stack 영역에 객체의 주소값이 저장되고, 실제 데이터는 heap 영역에 저장된다. 객체의 주소는 항상 4byte이다.
    - reference type 중 wrapper class라는 것이 존재하는데, 이는 primitive type을 객체화한 것이다. 모든 primitive type은 wrapper class로 변환할 수 있다.
    - (추가) java.math 라이브러리에 BigInteger와 BigDecimal 클래스를 제공한다. BigInteger는 8바이트로 표현할 수 없는 큰 정수를 문자열로 다룰 수 있게한다. BigDecimal은 오차 없는 실수 표현을 문자열로 가능하게 한다.
